@@ -1,0 +1,60 @@
+body{
+	background-image: url(parachute.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+body h1{
+	text-align: center;
+}
+.contact{
+	border:1px solid #000 ;
+	color:#fff;
+	box-sizing: border-box;
+	width:400px;
+	height: 500px;
+	top:50%;
+	left:50%;
+	background:transparent;
+	position: absolute;
+	transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.contact input{
+	width:100%;
+}
+.contact input[type="text"],input[type="E-mail"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	height:40px;
+	margin-bottom: 10px;
+	width:99%;
+	background:transparent;
+	font-size: 15px;
+	padding-left: 2px;
+	color:#fff;
+	outline: none;
+}
+.contact p{
+	padding-left: 10px;
+	font-size:20px;
+}
+.contact textarea{
+	width:98%;
+	padding-left: 3px;
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	color:#fff;
+	font-size: 15px;
+	outline: none;
+} 
+.contact input[type="submit"]{
+	border:none;
+	border-radius:50px;
+	height:40px;
+	background:#3EC532;
+	outline:none;
+	color:#fff;
+	font-size: 15px;
+}
+}

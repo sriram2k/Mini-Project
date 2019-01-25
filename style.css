@@ -1,0 +1,63 @@
+
+
+    body{
+      background-image: url("hospital.jpg");
+      background-repeat: no-repeat;
+      background-position: all;
+      background-size: cover;
+    }
+.loginbox{
+	width:370px;
+	height:450px;
+	background: transparent;
+	color:#fff;
+	top:50%;
+	left:50%;
+	box-sizing: border-box;
+	position: absolute;
+	transform: translate(75%,-50%);
+	border:1px solid #fff;
+	border-radius:10px;
+}
+h1{
+	padding-top: 20px;
+	text-align:center;
+	font-size:30px;
+}
+.loginbox p{
+	font-weight: bold;
+	font-size:20px;
+	padding-left: 5px;
+}
+.loginbox input{
+	width:99%;
+	margin-bottom: 10px;
+}
+.loginbox input[type="text"],input[type="password"]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	height:40px;
+	font-size:16px;
+	outline:none;
+	color:#fff;
+	padding-left: 5px;
+}
+.loginbox input[type="submit"]{
+	border:none;
+	border-radius:50px;
+	height:40px;
+	background:#1E90FF;
+	outline:none;
+	color:#fff;
+	font-size: 15px;
+}
+.loginbox input[type="reset"]{
+	border:none;
+	border-radius:50px;
+	height:40px;
+	background:#E74F16;
+	outline:none;
+	color:#fff;
+	font-size: 15px;
+}
